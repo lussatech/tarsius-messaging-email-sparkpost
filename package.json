@@ -1,14 +1,13 @@
 {
   "name": "tarsius-messaging-email-sparkpost",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.1",
   "description": "tarsius plugin for send email via Spark Post API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "muhammad hasan <hasan@lussa.net>",
+  "license": "MIT",
   "dependencies": {
     "nodemailer": "^1.10.0",
     "nodemailer-html-to-text": "^1.0.2",
@@ -34,5 +33,19 @@
         "type": "string"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lussatech/tarsius-messaging-email-sparkpost.git"
+  },
+  "keywords": [
+    "tarsius",
+    "email",
+    "sparkpost",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/lussatech/tarsius-messaging-email-sparkpost/issues"
+  },
+  "homepage": "https://github.com/lussatech/tarsius-messaging-email-sparkpost#readme"
 }
