@@ -1,0 +1,38 @@
+{
+  "name": "tarsius-messaging-email-sparkpost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tarsius plugin for send email via Spark Post API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^1.10.0",
+    "nodemailer-html-to-text": "^1.0.2",
+    "nodemailer-sparkpost-transport": "^0.1.0"
+  },
+  "tarsius": {
+    "type": "messaging.email",
+    "name": "Spark Post mail gateway",
+    "configs": [
+      {
+        "name": "campaignId",
+        "title": "Campaign ID",
+        "type": "string"
+      },
+      {
+        "name": "templateId",
+        "title": "Template ID",
+        "type": "string"
+      },
+      {
+        "name": "productName",
+        "title": "nama produk",
+        "type": "string"
+      }
+    ]
+  }
+}
